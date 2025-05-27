@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('注音小學堂首頁.png'); /* 圖片檔案名稱 */
+    background-size: cover;
+    background-attachment:  fixed; /* 背景固定不隨滾動 */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+button {
+    position: fixed;
+    bottom: 20px;
+    right: 70px;
+    background-color: #fba209;
+    color: white;
+    font-family: 'Noto Sans TC', sans-serif; /* 思源黑體 */
+    font-size: 30px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px #da7f04; /* 按鈕的陰影效果 */
+}
+
+button:hover {
+    background-color: #e89a07; /* 按鈕的 hover 效果 */
+}
